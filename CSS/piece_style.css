@@ -1,0 +1,352 @@
+
+/* -----Pieces background----- */
+.wq{
+    background-image: url('../Images/Pieces/wq.png');
+}
+.bq{
+    background-image: url('../Images/Pieces/bq.png');
+}
+.wk{
+    background-image: url('../Images/Pieces/wk.png');
+}
+.bk{
+    background-image: url('../Images/Pieces/bk.png');
+}
+.wp{
+    background-image: url('../Images/Pieces/wp.png');
+}
+.bp{
+    background-image: url('../Images/Pieces/bp.png');
+}
+.wn{
+    background-image: url('../Images/Pieces/wn.png');
+}
+.bn{
+    background-image: url('../Images/Pieces/bn.png');
+}
+.wr{
+    background-image: url('../Images/Pieces/wr.png');
+}
+.br{
+    background-image: url('../Images/Pieces/br.png');
+}
+.wb{
+    background-image: url('../Images/Pieces/wb.png');
+}
+.bb{
+    background-image: url('../Images/Pieces/bb.png');
+}
+
+/* -----Pieces position----- */
+/* SQUARE-(HEIGHT)-(WIDTH)
+/* -----Row - 1----- */
+.square-0-0{
+    transform: translate(0,0);
+}
+.square-0-1{
+    transform: translate(100%,0);
+}
+.square-0-2{
+    transform: translate(200%,0);
+}
+.square-0-3{
+    transform: translate(300%,0);
+}
+.square-0-4{
+    transform: translate(400%,0);
+}
+.square-0-5{
+    transform: translate(500%,0);
+}
+.square-0-6{
+    transform: translate(600%,0);
+}
+.square-0-7{
+    transform: translate(700%,0);
+}
+
+/* -----Row - 2----- */
+.square-1-0{
+    transform: translate(0,100%);
+}
+.square-1-1{
+    transform: translate(100%,100%);
+}
+.square-1-2{
+    transform: translate(200%,100%);
+}
+.square-1-3{
+    transform: translate(300%,100%);
+}
+.square-1-4{
+    transform: translate(400%,100%);
+}
+.square-1-5{
+    transform: translate(500%,100%);
+}
+.square-1-6{
+    transform: translate(600%,100%);
+}
+.square-1-7{
+    transform: translate(700%,100%);
+}
+
+/* -----Row - 3----- */
+.square-2-0{
+    transform: translate(0,200%);
+}
+.square-2-1{
+    transform: translate(100%,200%);
+}
+.square-2-2{
+    transform: translate(200%,200%);
+}
+.square-2-3{
+    transform: translate(300%,200%);
+}
+.square-2-4{
+    transform: translate(400%,200%);
+}
+.square-2-5{
+    transform: translate(500%,200%);
+}
+.square-2-6{
+    transform: translate(600%,200%);
+}
+.square-2-7{
+    transform: translate(700%,200%);
+}
+
+/* -----Row - 4----- */
+.square-3-0{
+    transform: translate(0,300%);
+}
+.square-3-1{
+    transform: translate(100%,300%);
+}
+.square-3-2{
+    transform: translate(200%,300%);
+}
+.square-3-3{
+    transform: translate(300%,300%);
+}
+.square-3-4{
+    transform: translate(400%,300%);
+}
+.square-3-5{
+    transform: translate(500%,300%);
+}
+.square-3-6{
+    transform: translate(600%,300%);
+}
+.square-3-7{
+    transform: translate(700%,300%);
+}
+
+/* -----Row - 5----- */
+.square-4-0{
+    transform: translate(0,400%);
+}
+.square-4-1{
+    transform: translate(100%,400%);
+}
+.square-4-2{
+    transform: translate(200%,400%);
+}
+.square-4-3{
+    transform: translate(300%,400%);
+}
+.square-4-4{
+    transform: translate(400%,400%);
+}
+.square-4-5{
+    transform: translate(500%,400%);
+}
+.square-4-6{
+    transform: translate(600%,400%);
+}
+.square-4-7{
+    transform: translate(700%,400%);
+}
+
+/* -----Row - 6----- */
+.square-5-0{
+    transform: translate(0,500%);
+}
+.square-5-1{
+    transform: translate(100%,500%);
+}
+.square-5-2{
+    transform: translate(200%,500%);
+}
+.square-5-3{
+    transform: translate(300%,500%);
+}
+.square-5-4{
+    transform: translate(400%,500%);
+}
+.square-5-5{
+    transform: translate(500%,500%);
+}
+.square-5-6{
+    transform: translate(600%,500%);
+}
+.square-5-7{
+    transform: translate(700%,500%);
+}
+
+/* -----Row - 7----- */
+.square-6-0{
+    transform: translate(0,600%);
+}
+.square-6-1{
+    transform: translate(100%,600%);
+}
+.square-6-2{
+    transform: translate(200%,600%);
+}
+.square-6-3{
+    transform: translate(300%,600%);
+}
+.square-6-4{
+    transform: translate(400%,600%);
+}
+.square-6-5{
+    transform: translate(500%,600%);
+}
+.square-6-6{
+    transform: translate(600%,600%);
+}
+.square-6-7{
+    transform: translate(700%,600%);
+}
+
+/* -----Row - 8----- */
+.square-7-0{
+    transform: translate(0,700%);
+}
+.square-7-1{
+    transform: translate(100%,700%);
+}
+.square-7-2{
+    transform: translate(200%,700%);
+}
+.square-7-3{
+    transform: translate(300%,700%);
+}
+.square-7-4{
+    transform: translate(400%,700%);
+}
+.square-7-5{
+    transform: translate(500%,700%);
+}
+.square-7-6{
+    transform: translate(600%,700%);
+}
+.square-7-7{
+    transform: translate(700%,700%);
+}
+
+/* -----Row - 9----- */
+.square-8-0{
+    transform: translate(0,800%);
+}
+.square-8-1{
+    transform: translate(100%,800%);
+}
+.square-8-2{
+    transform: translate(200%,800%);
+}
+.square-8-3{
+    transform: translate(300%,800%);
+}
+.square-8-4{
+    transform: translate(400%,800%);
+}
+.square-8-5{
+    transform: translate(500%,800%);
+}
+.square-8-6{
+    transform: translate(600%,800%);
+}
+.square-8-7{
+    transform: translate(700%,800%);
+}
+
+/* -----Row - 10----- */
+.square-9-0{
+    transform: translate(0,900%);
+}
+.square-9-1{
+    transform: translate(100%,900%);
+}
+.square-9-2{
+    transform: translate(200%,900%);
+}
+.square-9-3{
+    transform: translate(300%,900%);
+}
+.square-9-4{
+    transform: translate(400%,900%);
+}
+.square-9-5{
+    transform: translate(500%,900%);
+}
+.square-9-6{
+    transform: translate(600%,900%);
+}
+.square-9-7{
+    transform: translate(700%,900%);
+}
+
+/* -----Row - 11----- */
+.square-10-0{
+    transform: translate(0,1000%);
+}
+.square-10-1{
+    transform: translate(100%,1000%);
+}
+.square-10-2{
+    transform: translate(200%,1000%);
+}
+.square-10-3{
+    transform: translate(300%,1000%);
+}
+.square-10-4{
+    transform: translate(400%,1000%);
+}
+.square-10-5{
+    transform: translate(500%,1000%);
+}
+.square-10-6{
+    transform: translate(600%,1000%);
+}
+.square-10-7{
+    transform: translate(700%,1000%);
+}
+
+/* -----Row - 12----- */
+.square-11-0{
+    transform: translate(0,1100%);
+}
+.square-11-1{
+    transform: translate(100%,1100%);
+}
+.square-11-2{
+    transform: translate(200%,1100%);
+}
+.square-11-3{
+    transform: translate(300%,1100%);
+}
+.square-11-4{
+    transform: translate(400%,1100%);
+}
+.square-11-5{
+    transform: translate(500%,1100%);
+}
+.square-11-6{
+    transform: translate(600%,1100%);
+}
+.square-11-7{
+    transform: translate(700%,1100%);
+}

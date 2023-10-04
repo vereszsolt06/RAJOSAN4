@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+:root{
+    --primary-color: #474448;
+    --secondary-color: #706F6F;
+    --text-color: #B0B5B3;
+    --title-color: #F1F0EA;
+    --white-color: #fff;
+
+    --font-family: 'Poppins', sans-serif;
+
+    --font-size-1: 38px;
+    --font-size-2: 32px;
+    --font-size-3: 24px;
+    --font-size-4: 18px;
+
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+
+    --transition-0: 0.2s ease;
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease-in-out;
+
+    --box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: rgb(128, 128, 128);
+    font-family: var(--font-family), Helvetica, sans-serif;
+    color: var(--title-color);
+    overflow: hidden;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.game{
+    width: 600px;
+    height: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.variableBackground{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transition: background-color 1s ease;
+}
+
+.variableBackground#black{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.variableBackground#white{
+    background-color: rgba(255,255,255,0.35);
+
+}
+.chessboard_container{
+    position: relative;
+    background-image: url('../Images/Board/board8x12.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    aspect-ratio: 2/3;
+    height: 90%;
+    box-shadow: var(--box-shadow);
+}
+.player_black,
+.player_white{
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: var(--font-size-3);
+}
+.player_black{
+    color: white;
+}
+.player_white{
+    color: black;
+}
+.player_cont{
+    display: flex;
+    flex-direction: column;
+}
+.player_spell,
+.player_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+.profile-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: .5rem;
+    box-sizing: var(--box-shadow);
+}
+.player_details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .25rem;
+}
+.player_details p{
+    margin: 0;
+}
+.player_name{
+    padding-right: .5rem;
+}
+.round_counter{
+    padding: 1.5rem 0;
+    font-weight: 600;
+    color: white;
+    font-size: var(--font-size-3);
+}
+.piece{
+    position: absolute;
+    width: 12.5%;
+    aspect-ratio: 1/1;
+    z-index: 2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: grab;
+    /*transition: var(--transition-0)*/
+}
+
+/* -----Pieces Able----*/
+.able{
+    position: absolute;
+    width: 12.5%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    background-clip: content-box;
+    padding: 1.55rem;
+    border-radius: 5rem;
+    z-index: 3;
+    background-color: rgba(71, 71, 71, 0.4);
+}
+.capturable{
+    background: none;
+    border: .4rem rgba(71, 71, 71, 0.4) solid;
+}
+.highlighted{
+    position: absolute;
+    width: 12.5%;
+    aspect-ratio: 1/1;
+    background: hsla(55.5, 100%, 68.63%, 0.6);
+}

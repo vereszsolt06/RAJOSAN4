@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/piece_style.css">
+    <link rel="stylesheet" href="CSS/captured_style.css">
+</head>
+<body>
+    <div class="variableBackground" id="white"></div>
+    <main>
+        <div class="data">
+            <!-- -----------PLAYER WHITE----------- -->
+            <div class="player_white">
+            <div class="player_cont">
+                <div class="player_info">
+                    <img src="Images/Profile/prof1.png" alt="Black Pawn picture" class="profile-picture">
+                    <div class="player_details">
+                        <p>
+                            <span class="player_name">
+                                Rajosan4
+                            </span>
+                            <span><span class="points">0</span> Pont</span>
+                        </p>
+                        <div class="player_captured">
+                            <div class="captured-hidden" id="bpawn"></div>
+                            <div class="captured-hidden" id="bknight"></div>
+                            <div class="captured-hidden" id="bbishop"></div>
+                            <div class="captured-hidden" id="brook"></div>
+                            <div class="captured-hidden" id="bking"></div>
+                            <div class="captured-hidden" id="bqueen"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="player_spell">
+                    spell1 spell2
+                </div>
+            </div>
+            </div>
+            <!-- -----------ROUNDS COUNT----------- -->
+            <div class="round_counter">
+                <p>Körök száma: <span class="max-round">30</span></p>
+                <p>Jelenlegi kör: <span class="act-round">1</span></p>
+            </div>
+            <!-- -----------PLAYER BLACK----------- -->
+            <div class="player_black">
+            <div class="player_cont">
+                <div class="player_info">
+                    <img src="Images/Profile/prof2.jpeg" alt="White Pawn picture" class="profile-picture">
+                    <div class="player_details">
+                        <p>
+                            <span class="player_name">
+                                Rajosan5
+                            </span>
+                            <span><span class="points">0</span> Pont</span>
+                        </p>
+                       <div class="player_captured">
+                            <div class="captured-hidden" id="wpawn"></div>
+                            <div class="captured-hidden" id="wknight"></div>
+                            <div class="captured-hidden" id="wbishop"></div>
+                            <div class="captured-hidden" id="wrook"></div>
+                            <div class="captured-hidden" id="wking"></div>
+                            <div class="captured-hidden" id="wqueen"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="player_spell">
+                    spell1 spell2
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- -----------BOARD----------- -->
+        <div class="game">
+            <div class="chessboard_container">
+            </div>
+        </div>
+    </main>
+    <script src="JS/pieces_data.js"></script>
+    <script src="JS/capturedPiecesUpdate.js"></script>
+    <script src="JS/actscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+.player_capture{
+    display: flex;
+}
+.captured{
+    background-image: url('../Images/Pieces/captured-pieces.png');
+    background-repeat: no-repeat;
+    background-size:    34.2rem 30.6rem;
+    display: inline-block;
+    margin-right: .3rem
+}
+.captured-hidden{
+    display: none;
+}
+
+.captured-b-pawn-1,.captured-w-pawn-1 {
+    height: 1.7rem;
+    width: 1.3rem
+}
+
+.captured-b-pawn-1 {
+    background-position: 0 -17.6rem
+}
+
+.captured-w-pawn-1 {
+    background-position: -18rem -17.6rem
+}
+
+.captured-b-pawn-2,.captured-w-pawn-2 {
+    height: 1.7rem;
+    width: 2rem
+}
+
+.captured-b-pawn-2 {
+    background-position: 0 -15.1rem
+}
+
+.captured-w-pawn-2 {
+    background-position: -18rem -15.1rem
+}
+
+.captured-b-pawn-3,.captured-w-pawn-3 {
+    height: 1.7rem;
+    width: 2.7rem
+}
+
+.captured-b-pawn-3 {
+    background-position: 0 -12.6rem
+}
+
+.captured-w-pawn-3 {
+    background-position: -18rem -12.6rem
+}
+
+.captured-b-pawn-4,.captured-w-pawn-4 {
+    height: 1.7rem;
+    width: 3.4rem
+}
+
+.captured-b-pawn-4 {
+    background-position: 0 -10.1rem
+}
+
+.captured-w-pawn-4 {
+    background-position: -18rem -10.1rem
+}
+
+.captured-b-pawn-5,.captured-w-pawn-5 {
+    height: 1.7rem;
+    width: 4.1rem
+}
+
+.captured-b-pawn-5 {
+    background-position: 0 -7.6rem
+}
+
+.captured-w-pawn-5 {
+    background-position: -18rem -7.6rem
+}
+
+.captured-b-pawn-6,.captured-w-pawn-6 {
+    height: 1.7rem;
+    width: 4.8rem
+}
+
+.captured-b-pawn-6 {
+    background-position: 0 -5.1rem
+}
+
+.captured-w-pawn-6 {
+    background-position: -18rem -5.1rem
+}
+
+.captured-b-pawn-7,.captured-w-pawn-7 {
+    height: 1.7rem;
+    width: 5.5rem
+}
+
+.captured-b-pawn-7 {
+    background-position: 0 -2.6rem
+}
+
+.captured-w-pawn-7 {
+    background-position: -18rem -2.6rem
+}
+
+.captured-b-pawn-8,.captured-w-pawn-8 {
+    height: 1.7rem;
+    width: 6.2rem
+}
+
+.captured-b-pawn-8 {
+    background-position: 0 -.1rem
+}
+
+.captured-w-pawn-8 {
+    background-position: -18rem -.1rem
+}
+
+.captured-b-bishop-1,.captured-w-bishop-1 {
+    height: 1.8rem;
+    width: 1.5rem
+}
+
+.captured-b-bishop-1 {
+    background-position: -6.7rem -2.5rem
+}
+
+.captured-w-bishop-1 {
+    background-position: -24.7rem -2.5rem
+}
+
+.captured-b-bishop-2,.captured-w-bishop-2 {
+    height: 1.9rem;
+    width: 2.3rem
+}
+
+.captured-b-bishop-2 {
+    background-position: -6.7rem .1rem
+}
+
+.captured-w-bishop-2 {
+    background-position: -24.7rem .1rem
+}
+
+.captured-b-knight-1,.captured-w-knight-1 {
+    height: 1.9rem;
+    width: 1.6rem
+}
+
+.captured-b-knight-1 {
+    background-position: -9.5rem -2.4rem
+}
+
+.captured-w-knight-1 {
+    background-position: -27.5rem -2.4rem
+}
+
+.captured-b-knight-2,.captured-w-knight-2 {
+    height: 1.9rem;
+    width: 2.3rem
+}
+
+.captured-b-knight-2 {
+    background-position: -9.5rem .1rem
+}
+
+.captured-w-knight-2 {
+    background-position: -27.5rem .1rem
+}
+
+.captured-b-rook-1,.captured-w-rook-1 {
+    height: 1.7rem;
+    width: 1.5rem
+}
+
+.captured-b-rook-1 {
+    background-position: -12.1rem -2.6rem
+}
+
+.captured-w-rook-1 {
+    background-position: -30.1rem -2.6rem
+}
+
+.captured-b-rook-2,.captured-w-rook-2 {
+    height: 1.7rem;
+    width: 2.3rem
+}
+
+.captured-b-rook-2 {
+    background-position: -12rem -.1rem
+}
+
+.captured-w-rook-2 {
+    background-position: -30rem -.1rem
+}
+
+.captured-b-queen-1,.captured-w-queen-1 {
+    height: 1.9rem;
+    width: 1.8rem
+}
+
+.captured-b-queen-1 {
+    background-position: -14.5rem .1rem
+}
+
+.captured-w-queen-1 {
+    background-position: -32.5rem .1rem
+}
+/* KING */
+
+.captured-b-king-1,.captured-w-king-1 {
+    height: 1.8rem;
+    width: 1.8rem;
+    background-size: 1.8rem;
+}
+
+.captured.captured-b-king-1 {
+    background-image: url('../Images/Pieces/bk_icon2.png');
+}
+
+.captured.captured-w-king-1 {
+    background-image: url('../Images/Pieces/wk_icon12.png');
+}
